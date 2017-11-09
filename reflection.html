@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="ar-website.css" />
+	</head>
+
+	<body>
+		<header>
+			<h1>Augmented Reality</h1>
+			<nav>
+				<ul>
+					<li><a href="home.html" class="link"><span>Home</span></a></li>
+					<li>|</li>
+					<li><a href="augmented-reality.xml" class="link"><span>Quick Byte</span></a></li>
+					<li>|</li>
+					<li><a href="augmented-reality-detailed.xml" class="link"><span>Food for Thought</span></a></li>
+					<li>|</li>
+					<li><a href="reflection.html" class="link"><span>Memo</span></a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!--Because freezing the header gave me other headaches-->
+		<div class="white-space">
+		</div>
+
+		<h1 class="memo-heading">Memo</h1>
+		<div class="article-text">
+			<div class="memo-header">
+				<div class="memo-contact-line">
+					<h3>To:</h3>
+					<p>Dr. Lam</p>
+				</div>
+				<div class="memo-contact-line">
+					<h3>From:</h3>
+					<p>Stephanie Botica</p>
+				</div>
+				<div class="memo-contact-line">
+					<h3>Date:</h3>
+					<P>10/25/2017</P>
+				</div>
+				<div class="memo-contact-line">
+					<h3>Re:</h3>
+					<p>Project description and reflection</p>
+				</div>
+			</div>
+			<hr>
+			<h2>What are XML, XSL, HTML, and CSS?</h2>
+			<p>XML, XSL, HTML, and CSS are crucial components of website design. Understanding all four and how they work together to build the web that so many people use daily may at first seem like a daunting task, but once its broken down into parts, it is simple to understand.</p>
+			<p>Webpages are displayed in HTML, or hypertext markup language. It is this coding that gives not only the content of the website but also structures that content. Originally, each web page was created and displayed with HTML. Over time, however, limitations of HTML especially on large or complex sites meant that new methods of managing content were created.</p>
+			<p>This is where XML and XSL come in. These two are different document types with different purposes. The purpose of the XML (extensible markup language) document is to contain all of the text content. Not only does it contain this content, but it also structures and names it so that the entirety of the content is accessible in one location. The power of this comes into focus when the XML document is accompanied by an XSL (extensible stylesheet language) document. The XSL document is the bridge between the content in the XML document and a webpage. XSL can, using the structure and names introduced in the XML document, build an HTML web page from only the information relevant to that particular page.</p>
+			<p>For example, in my project, I created two different articles of different lengths out of the same XML content. One is more of a beginner's overview while the second goes into further detail about the same topic. Despite having two different articles, I only had to write the content one time in the XML doc. To create the different articles, I simply had to vary what pieces of the XML doc my XSL sheet pulled to create the HTML of the webpage.</p>
+			<p>The XML, XSL, and resulting HTML may make a webpage, but they don't make it usable or visually appealing by default. The HTML contains the structure, but a CSS (cascading stylesheet) document is needed to style the content. The HTML can be thought of as the house containing all of the content while the CSS would be the color of the exterior, the type of shingles on the roof, the types of window frames, and any other cosmetic detail associated with the house.</p>
+			<p>Once the HTML is created through transforming the XML by using XSL, the CSS can then take that HTML and turn it into a usable, appealing website. As a result, learning all four of these and how to use them together to create a website is incredibly beneficial to understanding the web and the content on the web. Of course, much content on the web now has additional web programming involved (PHP and Javascript, for example) but just knowing the basic four that were used in this project is enough to grasp the major points of what goes on behind the scene to make the online world we all know and use.</p>
+			<h2>Why are they important?</h2>
+			<p>The short summary of all of this is that by using a combination of XML, XSL, HTML, and CSS, you can create a modern website from scratch. Using XML and XSL to create your web content saves time; you don't have to redo ever page every time you want to change content. You simply change the content in the XML document. Likewise, using CSS to style this webpage means that you can change the entire webpage with a single CSS document instead of again, having to change the HTML on each individual page one at a time. These technologies save time and reduce the chances that errors will be introduced to the site or its contents.</p>
+			<h2>About this project</h2>
+			<p>I personally have really enjoyed jumping in and messing around with the coding that lies behind websites. It's a topic that I seem to have picked up quickly and that I found myself working with just because I enjoyed doing so. I tend to learn best by asking questions and exploring the results. I like to just jump in: "Ok, what if this? Ah, I see! That makes sense. Ok, now what if that?" Learning coding seems very easy using this method alongside decent references like w3schools and StackExchange. I got to the point that I understood the basics for the assignment so well that I helped troubleshoot a classmate's issue with her own site simply not working as intended, which was pretty gratifying to be able to do. (It's also why one of her documents might still have my name in its name - she joked about leaving it in after I helped her finally get it to work.) I even used this knowledge to go into the CSS and HTML of my template for my portfolio website and tweak it.</p>
+			<p>All told, I found this project to be an enjoyable experience. It wasn't innately difficult for me, so I just added on to it a bit to try to get a somewhat deeper knowledge of the subject matter.</p>
+		</div>
+
+		<footer>
+			<p class="about-me">Website by Stephanie Botica - TECM 5191 - Fall 2017</p>
+			<p class="contact-info">Contact me at <a href="mailto:stef.botica@gmail.com">stef.botica@gmail.com</a></p>
+			<!--bonus points for making it easy for the viewer to contact me?-->
+		</footer>
+	</body>
+</html>

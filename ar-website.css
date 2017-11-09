@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+	font-family: garamond;
+	padding-top: 15px;
+	padding-left: 100px;
+	padding-bottom: 10px;
+	font-size: 36px;
+}
+
+h2 {
+	font-family: garamond;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+h3 {
+	font-family: helvetica;
+	font-size: 16px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+hr {
+	margin-bottom: 20px;
+}
+
+header {
+	background-color: #006666;
+	height: 100px;
+	width: 100%;
+	font-family: helvetica;
+	position: fixed;
+}
+
+header a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+header h1 {
+	color: #ffffff;
+	font-size: 56px;
+	float: left;
+	padding-left: 40px;
+	padding-top: 25px;
+	letter-spacing: 5px;
+}
+
+nav {
+	float: right;
+	padding-right: 20px;
+	padding-top: 50px;
+}
+
+nav li{
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #ffffff;
+}
+
+.link:hover span {
+    text-decoration:underline;
+}
+
+.white-space {
+	height: 100px;
+}
+
+.article-text {
+	font-family: helvetica;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 20px;
+}
+
+.image-with-text {
+    text-align: center;
+    background-color: #006666;
+}
+
+.homepage-text {
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    text-shadow: 1px 1px #000000;
+	color: #ffffff;
+	font-size: 28px;
+	font-family: helvetica;
+}
+
+img.homepage-img {
+	float: none;
+	width: 100%;
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+figure {
+	float: right;
+	padding: 30px;
+	margin-right: 100px;
+}
+
+figure img {
+	border-radius: 40px;
+}
+
+figure figcaption {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 14px;
+	color: #595959;
+}
+
+h1.memo-heading {
+	font-size: 56px;
+}
+
+.memo-header {
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.memo-contact-line p {
+	display: inline;
+}
+
+.memo-contact-line h3 {
+	display: inline;
+}
+
+footer {
+	clear: both;
+	background-color: #006666;
+	color: #ffffff;
+	height: 50px;
+	font-family: helvetica;
+}
+
+footer p.about-me {
+	float: left;
+	padding-left: 20px;
+	margin-top: 15px;
+}
+
+footer p.contact-info {
+	float: right;
+	padding-right: 20px;
+	margin-top: 15px;
+}
+
+footer a {
+	color: #ffffff;
+}

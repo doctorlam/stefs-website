@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ar-detailed.xsl"?>
+<!--Copy from here down-->
+<augmented-reality>
+	<ar-def>
+		<title>Augmented Reality</title>
+		<author>Christine Perey</author>
+			<about-author>
+			Christine Perey is a senior industry analyst and active leader of new technology industry initiatives. In 1991 she saw that it would be possible to improve human communication on personal computing devices with audio and video. She became the editor and publisher of the QuickTime Forum, the first publication for QuickTime developers. She worked as a consultant to the videoconferencing and streaming media industries for over a decade until, in 2006, she realized that the future would lead to augmented reality. She has started and led many communities of interest and currently serves as executive director of the AR for Enterprise Alliance (AREA), the only global member-based organization accelerating AR adoption in the enterprise.
+			</about-author>
+			<email>cperey@perey.com</email>
+			<website>perey.com</website>
+			<twitter>@cperey</twitter>
+			<linkedin>ch.linkedin.com/in/christineperey</linkedin>
+		<article>
+			<what>
+				<subtitle>What is it?</subtitle>
+				<summary>
+				Both the suite of enabling technologies and the resulting experience of a user when highly contextual digital information (text, images, animations, video, 3D model, sound, or haptic stimuli) is presented in a manner that's synchronized in real time with, and appears attached to, physical world people, places, or objects.
+				</summary>
+			</what>
+			<importance>
+				<subtitle>Why is it important?</subtitle>
+				<summary>
+				By offering digital information (content) in context and providing interactivity with the content without leaving the physical world, augmented reality profoundly changes how people learn, live, and perform tasks in both physical and digital worlds.
+				</summary>
+			</importance>
+			<why>
+				<subtitle>Why does a technical communicator need to know this?</subtitle>
+				<summary>
+				Augmented reality is emerging as the next user interface for presenting and capturing information that pertains to the physical world in context with the user's focus of attention. More than just a novelty or amusement, augmented reality permits users to perceive beyond the superficial and to perform rare and complex tasks with assistance, reducing training and performance times and error rates.
+
+				This new approach to presenting, capturing, and interacting with information enables organizations to tap other emerging technology trends such as the Internet of Things, cloud computing, high performance and lightweight displays, and high-speed networks to their full potential.
+
+				As more people begin to use augmented reality, the role of technical communication professionals will expand with the growing need for information integration into the physical world. The existing professional roles will adapt information authoring, storage, and delivery processes. There will also be new roles created to support the gradual integration of augmented reality software and hardware with connected devices in a variety of different platforms and workflows.
+
+				Augmented reality technologies, and the new practices necessary to gracefully deliver and present digital information in context with the physical world, are profoundly changing the human experience.
+				</summary>
+			</why>
+		</article>
+	</ar-def>
+
+	<ar-original-content>
+		<title>Current Applications</title>
+		<author>Stephanie Botica</author>
+		<article>
+			<summary>
+			One of the most well-known recent applications of augmented reality is the app called "Pokemon Go" by Niantic. Pokemon Go is a mobile app that uses the player's technology on his or her phone to place digital content into the real world. The game's content is triggered based on both digital data that is programmed into the game and physical data derived that is from the player's environment.
+			</summary>
+			<example>Pokestops are one example. Pokestops are places where a player can go to receive supplies. These places have been coded into the game and correspond with physical geographic locations. For players to access a Pokestop, they must be close enough to the physical geographic location that corresponds to the digital Pokestop. Players' location is determined using the built in location technology on their phones. Once they are, the Pokestop in the app becomes accessible to the player, who can now receive items to help them play.
+			</example>
+			<example>
+			Another example, one that uses multiple data points from the physical environment, is the pokemon. Pokemon are digital creatures from the famous Nintendo franchise of the 1990's. Catching, and then training, these pokemon is the main point of Pokemon Go. To catch them, the player must explore physical space; this is because the pokemon are scattered throughout physical space by the game's code. Once the player's phone indicates that he or she is at the location of a pokemon, the player is alerted by an digital image on his or her screen. He or she can then tap on this avatar to initiate the encounter. When the player initiates the encounter, the pokemon is then shown superimposed onto the physical environment by utilizing the camera capabilities of the player's device. To catch the pokemon, the player must continue looking at the creature, now being shown as occupying real world space through the screen of their device, and throw pokeballs at it to capture it. If the player is successful, the pokemon is added to his or her collection. Multiple data is at play from both the digital and the physical spaces to enable this to happen, including not only location and camera, but also time of day, type of environment, and whether or not other players nearby have initiated specific events. All of this is combined to make a game that augments reality by adding new collectible creatures to the physical world.
+			</example>
+			<conclusion>
+			Pokemon Go was an enormous hit when it first released, so much so that the company was not prepared for the number of players and had to work swiftly to upgrade their technology to handle the load. It is still a successful game to this day, having spawned communities of local players, online knowledge bases, and even national events. While this is an example of augmented reality being used for gaming purposes, the technology exists to create similar  applications for other uses. Imagine an app that could superimpose logos of businesses at subway exits onto the windows of the train car a minute or two before the rider arrived at a stop. The app could allow the user to quickly check conditions such as how crowded a business is, what sales are currently being run, or what menu items are most popular at a restaurant. Presenting usable, real time content to people in this way has the capacity to revolutionize how content is presented and consumed.
+			</conclusion>
+		</article>
+	</ar-original-content>
+	
+</augmented-reality>
